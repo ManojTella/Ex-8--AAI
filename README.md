@@ -1,5 +1,5 @@
- <H3>ENTER YOUR NAME</H3>
-<H3>ENTER YOUR REGISTER NO.</H3>
+ <H3>ENTER YOUR NAME: Manoj Guna Sundar Tella.</H3>
+<H3>ENTER YOUR REGISTER NO: 212221240026.</H3>
 <H3>EX. NO.8</H3>
 <H3>DATE:</H3>
 <H1 ALIGN =CENTER>Implementation of Speech Recognition</H1>
@@ -21,10 +21,14 @@ Step 11: Perform speech recognition with exceptional handling:<Br>
 •	Handle specific exceptions: If the recognition result is unknown or if there is an issue with the request to the Google Speech Recognition service, print corresponding error messages.<Br>
 •	A generic exception block captures any other unexpected errors.<Br>
 <H3>Program:</H3>
-~~~
+
+# importing packages
+```
 import pyaudio
 import speech_recognition as sr
+```
 
+```
 # initialize the Recognizer
 r = sr.Recognizer()
 
@@ -47,9 +51,13 @@ except sr.RequestError as e:
     print(f'Error with the request to Google Speech Recognition Service: {e}')
 except Exception as e:
     print(f'Error: {e}')
-~~~
+```
 
-<H3> Output:</H3>
-Show the results here
+### Output
 
-<H3> Result:</H3>
+![image](https://github.com/ManojTella/Ex-8--AAI/assets/94883876/3c0bc41b-6fbe-4ef7-a75b-9cef1274b859)
+
+
+
+### Result
+Thus, we have implemented a program that will transcribe the audio file in the file variable and print the transcribed text on the console, one line at a time.
