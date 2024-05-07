@@ -55,7 +55,8 @@ except Exception as e:
 
 ### Output
 
-![image](https://github.com/ManojTella/Ex-8--AAI/assets/94883876/3c0bc41b-6fbe-4ef7-a75b-9cef1274b859)
+![image](https://github.com/ManojTella/Ex-8--AAI/assets/94883876/550f259c-bc42-40d0-84e2-87e4800601a7)
+
 
 
 
